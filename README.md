@@ -1,30 +1,111 @@
 # firstrepository
-# Seção 1
-Texto da seção 1
 
-## Seção 1.2
-Texto da seção 1.2
+# Simplified Manual - Markdown
 
-## Seção 2
-[Link qualquer](www.globo.com)
+# Section 1
+Text of Section 1.
+Using only one **#**. 
+Example:
+```
+# Section 1
+```
 
-### Seção 3
-> Quotation de teste
+## Section 1.2
+Text of Section 1.2.
+The # define the size of the title.
+This section is using two **#**. 
+Example: 
+```
+## Section 1.2
+```
 
-*Texto em Itálico*
+## Section 2
+Using two **#** as well. Example on Section 1.2.
 
-**Texto em Negrito**
+### Section 3
+Using three **#**. 
+Example: 
+```
+### Section 3
+```
 
-***Negrito e Itálico ao mesmo tempo***
+#### Section 4
+Using four **#**. 
+Example:
+```
+#### Section 4"
+```
 
-#### Seção 4
-Lista Numérica:
+#### How to create a hyperlink:
+You must put the text between "[ ]" and the link between "( )".
+Example:
+```
+[Anylink](www.google.com)
+```
+Final result: [Anylink](www.google.com)
 
+#### How to quote a text:
+You must put a ">" before the text.
+Example:
+```
+> Quote
+```
+Final result:
+> Quote
+
+#### Italic text:
+You must put the text between "*"*.
+Example:
+```
+*Italic text*
+```
+Final result: *Italic Text*
+
+#### Bold text:
+You must put the text between two "*"*.
+Example:
+```
+**Bold Text**
+```
+Final result:
+**Bold Text**
+
+#### Bold and italic at same time:
+You must put the text between three "*"*.
+Example:
+```
+**Bold and Italic Text**
+```
+Final result:
+***Bold and Italic Text***
+
+#### Numerical list:
+Put the text using numbers before each line.
+Example: 
+```
+1. Item 1
+2. Item 2
+3. Item 3
+```
+
+Final result:
 1. Item 1
 2. Item 2
 3. Item 3
 
-Lista de Pontos:
+#### Dot list:
+Put a dash (-) symbol before the items of the list:
+Example:
+```
+Dot list:
+- Item 1
+- Item 2
+  - Item 2.1
+- Item 3
+```
+
+Final result:
+Dot list:
 - Item 1
 - Item 2
   - Item 2.1
