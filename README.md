@@ -126,8 +126,9 @@ Example:
 <a href="url"><img src="http://url.to/image.png" align="left" height="48" width="48" ></a>
 ```
 Final result:
-<a href="Image"><img src="https://i1.wp.com/multarte.com.br/wp-content/uploads/2019/02/mickey-png-transparente7.png" align="left" height="200" width="350" ></a>
+<a href="Image"><img src="https://i1.wp.com/multarte.com.br/wp-content/uploads/2019/02/mickey-png-transparente7.png" align="left" height="197" width="256" ></a>
 
+<br> 
 #### Adding code:
 You must use 3 single quotes at the beginning and end of the code:
 
