@@ -111,11 +111,27 @@ Dot list:
   - Item 2.1
 - Item 3
 
-Colocar imagens:
-![Texto da imagem](https://i1.wp.com/multarte.com.br/wp-content/uploads/2019/02/mickey-png-transparente7.png)
+#### Insert images:
+```
+![Image text](https://i1.wp.com/multarte.com.br/wp-content/uploads/2019/02/mickey-png-transparente7.png)
+```
 
+Final result:
+![Image text](https://i1.wp.com/multarte.com.br/wp-content/uploads/2019/02/mickey-png-transparente7.png)
 
-Adicionar código - 3 aspas viradas pra direita:
+##### Resizing inserted image: 
+You must use HTML code.
+Example: 
+```
+<a href="url"><img src="http://url.to/image.png" align="left" height="48" width="48" ></a>
+```
+Final result:
+<a href="Image"><img src="https://i1.wp.com/multarte.com.br/wp-content/uploads/2019/02/mickey-png-transparente7.png" align="left" height="200" width="350" ></a>
+
+#### Adding code:
+You must use 3 single quotes at the beginning and end of the code:
+
+Final result:
 ```
 {
   "firstName": "John",
@@ -124,18 +140,47 @@ Adicionar código - 3 aspas viradas pra direita:
 }
 ```
 
-Texto riscado:
+#### Strikethrough text:
+Insert two "~" between the text. 
+Example: 
+```
+~~A terra é plana. Apenas aceite~~
+```
+Final result:
 ~~A terra é plana. Apenas aceite~~
 
-Checklist:
 
-- [x] Feito
-- [ ] Nao feito
-- [ ] Nao fiz tb
-- [x] Esse eu fiz
+#### Checklist:
+Put a "-" and "[ ]" before the text.
 
+Example:
+```
+- [x] Done
+- [ ] Pending
+- [ ] Pending
+- [x] Done
+```
 
-Tabela:
+Final result:
+- [x] Done
+- [ ] Pending
+- [ ] Pending
+- [x] Done
+
+#### Table:
+Divide fields using "|".
+
+Example: 
+```
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+```
+
+Final result:
+
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
